@@ -1,0 +1,19 @@
+{
+  "name": "monstercat-release-url",
+  "description": "Get signed monstercat release urls",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/monstercat/release-url"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.2.35",
+    "mongojs": "^2.3.0",
+    "tap": "~0.2.5",
+    "tape": "^4.4.0"
+  }
+}
