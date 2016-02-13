@@ -30,6 +30,8 @@ var params = {
 };
 
 getUrl(params, function (err, url) {
+  if (err) throw err;
+  console.log("download link: %s", url);
   db.close();
 })
 ```
